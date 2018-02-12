@@ -33,8 +33,15 @@ function dec(n)
 
 function makeInt(n)
 {
-  parseInt(n)
-  return n
+  if(n === parseInt(n))
+  {
+    parseInt(n)
+    return n
+  }
+  else
+  {
+    return 0
+  }
 }
 
 function preserveDecimal(n)
