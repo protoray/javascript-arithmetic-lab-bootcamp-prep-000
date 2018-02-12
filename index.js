@@ -20,7 +20,7 @@ function divide(a, b)
 
 function dec(n)
 {
-  
+  dec--
 }
 
 function makeInt(n)
