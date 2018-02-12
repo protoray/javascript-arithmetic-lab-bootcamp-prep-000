@@ -33,8 +33,8 @@ function dec(n)
 
 function makeInt(n)
 {
-  
-  return parseInt(n)
+  parseInt(n)
+  return n^10
 }
 
 function preserveDecimal(n)
