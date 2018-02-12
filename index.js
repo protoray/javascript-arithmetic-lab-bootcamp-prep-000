@@ -20,8 +20,8 @@ function divide(a, b)
 
 function inc(n)
 {
-  inc++
-  return inc
+  n++
+  return n
 }
 
 function dec(n)
