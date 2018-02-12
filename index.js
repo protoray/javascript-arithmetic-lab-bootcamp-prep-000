@@ -33,7 +33,7 @@ function dec(n)
 
 function makeInt(n)
 {
-  parseInt()
+  parseInt(n)
 }
 
 function makeInt(n)
